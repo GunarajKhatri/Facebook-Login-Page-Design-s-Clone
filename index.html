@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-log in</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      a:hover{
+          text-decoration:underline;
+      }
+    </style>
+</head>
+<body class="bg-indigo-50">
+    <div class="mt-0 flex container justify-between items-center">
+      <div class="mb-8" style="margin-top:50px;margin-left:135px;">
+       <h2 class="text-blue-600 font-bold text-5xl tracking-tighter">facebook</h2>
+      <p class="text-black-200 text-3xl mt-3">Recent logins<p/>
+      <p class="mt-1 text-gray-500 mb-7">Click your picture or add an account.</p>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="bg-white shadow-lg overflow-hidden sm:rounded-lg rounded-lg  hover:shadow-2xl" style="width:160px;height:210px;">
+            <img src="profile.jpg" alt="profile" style="width:160px;height:160px;">
+            <p class="text-gray-700 text-lg text-center mt-3">Gunaraj</p>
+        </div>
+        <div class="bg-white shadow-lg overflow-hidden sm:rounded-lg rounded-lg hover:shadow-2xl" style="width:160px;height:210px;">
+            
+            <div style="width:160px;height:160px;position: relative;" class="bg-gray-100">
+                <img src="Add1.png" alt="Add" class="ml-50" style="width:42px;height:42px;margin-left:58px;margin-top:60px;position:absolute;">
+            </div>
+            <p class="text-blue-700 text-xl text-center mt-3">Add Account</p>
+        </div>
+        
+      </div>
+      </div>
+      <div>
+  <div class="bg-white shadow-lg overflow-hidden sm:rounded-lg rounded-lg" style="width:423px;margin-top:140px;margin-right:68px;">
+    <input type="text" placeholder="Email address or phone number" class="border-2 border-gray-200 h-16 m-4 rounded-lg pl-4 text-lg focus:outline-none focus:ring-2 focus:ring-purple-300" style="width:390px;">
+    <input type="text" placeholder="Password" class="border-2 border-gray-200 h-16 mb-4 ml-4 mr-4 rounded-lg pl-4 text-lg focus:outline-none focus:ring-2 focus:ring-purple-300" style="width:390px;">
+    <button class="bg-blue-700 text-white h-12 font-extrabold rounded-lg text-xl ml-4 mb-5" style="width:390px;">Log In</button>
+    <!-- <a href="#" class="text-center text-blue-600 ml-10">Forgotten password?</a> -->
+    <p class="text-center text-blue-500 text-sm mb-6"><a href="#">Forgotten password?</a></p>
+    <!-- <hr style="height:2px;border-width:0;color:gray;background-color:gray"> -->
+    <div class="border-b border-gray-300 flex items-center mb-7 mx-5"></div>
+    <button class="text-white h-12 font-extrabold rounded-lg text-lg ml-4 mb-6 text-center hover:bg-red-800" id="acc" style="width:205px;background-color:#42b72a;margin-left:110px;">Create New Account</button>
+    
+  </div>
+  <p class="mt-7 ml-9 text-sm"><span class="text-black font-bold">Create a Page</span> for a celebrity, band or business.</p>
+  </div>
+  </div>
+  </body>
+</html>
